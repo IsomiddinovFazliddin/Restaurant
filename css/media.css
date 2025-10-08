@@ -1,0 +1,131 @@
+@media (max-width: 480px) {
+  nav .container {
+    padding: 20px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav .btns button {
+    display: none;
+  }
+  nav .hamburger {
+    display: block;
+  }
+  .hero .container {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 20px 0 20px;
+  }
+  .hero .heroInfo {
+    width: 100%;
+  }
+  .hero .heroInfo p {
+    width: 100%;
+  }
+  .hero .heroInfo .btns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero .heroImg {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .aboutSection .container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .aboutSection .aboutImg {
+    width: 100%;
+  }
+  .aboutSection .aboutInfo {
+    width: 100%;
+  }
+  main h2 {
+    font-size: 40px;
+  }
+  .menuSection .container {
+    padding: 50px 20px;
+  }
+  .menuSection .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .menuSection .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .menuSection .box {
+    width: 100%;
+  }
+  .menuSection .imgInfo h3 {
+    font-size: 25px;
+  }
+  .reservationSection .container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 80px;
+    padding: 80px 20px;
+  }
+  .reservationSection .reservationImg {
+    width: 100%;
+  }
+  .reservationSection .reservationImg img:nth-child(2) {
+    width: 30%;
+    position: absolute;
+    top: -40px;
+    right: 0px;
+  }
+  .reservationSection .reservationImg img:nth-child(3) {
+    width: 30%;
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+  }
+  .reservationSection .reservationInfo {
+    width: 100%;
+  }
+  .chefSection .container {
+    padding: 40px 20px;
+  }
+  .chefSection .card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .chefSection .box {
+    width: 100%;
+    gap: 10px;
+  }
+  .contactSection .container {
+    padding: 60px 20px;
+  }
+  .contactSection h3 {
+    font-size: 20px;
+  }
+  .contactSection h4 {
+    font-size: 16px;
+  }
+  .contactSection .row {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container {
+    padding: 40px 20px;
+  }
+  footer .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  footer .row {
+    justify-content: start;
+  }
+  footer .box p {
+    width: 100%;
+  }
+  footer .box h4 {
+    width: 100%;
+  }
+}
