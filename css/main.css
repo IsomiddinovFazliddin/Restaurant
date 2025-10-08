@@ -48,6 +48,14 @@ main h2 {
   margin: 0 auto;
   overflow: hidden;
 }
+nav{
+    background-color: rgba(255,255, 255, 0.98);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
 nav .container {
   display: flex;
   justify-content: space-between;
@@ -104,7 +112,7 @@ nav .hamburger {
   display: flex;
   gap: 10px;
   justify-content: space-between;
-  padding: 90px 0 0 0;
+  padding: 150px 0 0 0;
 }
 .hero .heroInfo {
   width: 45%;
