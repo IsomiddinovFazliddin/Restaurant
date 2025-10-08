@@ -12,14 +12,8 @@
   --Raleway: "Raleway", sans-serif;
   --Tinos: "Tinos", serif;
 }
-html,
-body {
+html {
   scroll-behavior: smooth;
-  overflow-y: auto;
-  overflow-anchor: none;
-}
-body {
-  scroll-margin-top: 0;
 }
 body p {
   font-family: var(--Poppins);
